@@ -1,6 +1,7 @@
 Flash工作说明文档
 =================
 
+
 更新外网测试
 --------------
 外网ip: **221.228.73.10** ，访问地址 ``http://mnjflashtest.ivmall.com/mnj/1.x.x`` .(1.x.x是版本号)
@@ -36,6 +37,7 @@ Flash工作说明文档
 
  * **更新html/js等等，和更新xml一样.** 
 
+
 打包Plugin
 -----------
 #. 共享下载虚拟机 ``\\192.168.20.200\share\clarksun\xp`` .
@@ -45,7 +47,8 @@ Flash工作说明文档
 #. 运行 **buildMyNickJ.bat** .
 #. 成功后在release目录找到打包好的Plugin和Player.
 
-更新SVN给老胡更新
+
+更新SVN给老胡使用
 -----------------
 #. 测试OK没问题.
 #. ``svn co http://192.168.20.200/svn/smit/ivmall/mnj/portal/WebRoot/mnj`` .
@@ -56,5 +59,4 @@ Flash工作说明文档
 
 #. monNickelodeonJr.swf的文件名需要加上版本号.
 #. index.htm，不是index.html.
-#. index.htm里面有两处使用monNickelodeonJr.swf的地方，需要跟着版本号一起修改文件名.
- 
+#. index.htm里面有两处使用monNickelodeonJr.swf的地方，需要跟着版本号一起修改文件名. 
