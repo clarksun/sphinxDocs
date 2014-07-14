@@ -5,6 +5,13 @@ Flash工作说明文档
 --------------
 外网ip: **221.228.73.10** ，访问地址 ``http://mnjflashtest.ivmall.com/mnj/1.x.x`` .(1.x.x是版本号)
 
+ * **更新版本** 
+  #.  ``ssh -p 11680 root@221.228.73.10`` 输入密码后登陆成功.
+  #.  ``cd /var/www/html/mnj``
+  #.  ``cp -r LAST_VERSION_FOLDER LATEST_VERSION_FOLDER `` 将上一个版本的目录拷贝一份，新目录名字为最新的版本号.
+  #. 将新版本的文件按照下面的分类进行更新.
+  #. OK.
+
  * **更新swf**
   #.  ``ssh -p 11680 root@221.228.73.10`` 输入密码后登陆成功.
   #.  ``cd /var/www/html/mnj/1.x.x/`` 1.x.x为具体版本目录.
