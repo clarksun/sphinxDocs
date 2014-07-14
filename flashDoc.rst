@@ -48,6 +48,11 @@ Flash工作说明文档
 更新SVN给老胡更新
 -----------------
 #. 测试OK没问题.
-#. ``svn co http://192.168.20.200/svn/smit/ivmall/mnj/portal/WebRoot/mnj`` 
-#. 将新版本的文件copy覆盖co下来的目录对应的文件。
-#. ``svn ci -m 'COMMIT_LOG'`` 
+#. ``svn co http://192.168.20.200/svn/smit/ivmall/mnj/portal/WebRoot/mnj`` .
+#. 将新版本的文件copy覆盖co下来的目录对应的文件.
+#. ``svn ci -m 'COMMIT_LOG'`` .
+注意检查几点:
+#. monNickelodeonJr.swf的文件名需要加上版本号.
+#. index.htm，不是html.
+#. index.htm里面有两处使用monNickelodeonJr.swf的地方，需要跟着版本号一起修改文件名.
+ 
