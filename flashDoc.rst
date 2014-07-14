@@ -53,6 +53,7 @@ Flash工作说明文档
 #. ``svn ci -m 'COMMIT_LOG'`` .
 
 注意检查几点:
+
 #. monNickelodeonJr.swf的文件名需要加上版本号.
 #. index.htm，不是index.html.
 #. index.htm里面有两处使用monNickelodeonJr.swf的地方，需要跟着版本号一起修改文件名.
