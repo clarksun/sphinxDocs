@@ -52,7 +52,7 @@ Flash工作说明文档
 #. 将新版本的文件copy覆盖co下来的目录对应的文件.
 #. ``svn ci -m 'COMMIT_LOG'`` .
 
-注意检查几点:
+ **注意检查几点** :
 
 #. monNickelodeonJr.swf的文件名需要加上版本号.
 #. index.htm，不是index.html.
