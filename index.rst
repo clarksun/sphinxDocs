@@ -11,7 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   flashNote
+   flashDoc
 
 Indices and tables
 ==================
