@@ -1,7 +1,7 @@
 Flash工作说明文档
 =================
 
-更新外网文件(win操作系统需要安装个cygwin之类的命令行工具)
+更新外网测试
 --------------
 外网ip: **221.228.73.10** ，访问地址 ``http://mnjflashtest.ivmall.com/mnj/1.x.x`` .(1.x.x是版本号)
 
@@ -51,8 +51,9 @@ Flash工作说明文档
 #. ``svn co http://192.168.20.200/svn/smit/ivmall/mnj/portal/WebRoot/mnj`` .
 #. 将新版本的文件copy覆盖co下来的目录对应的文件.
 #. ``svn ci -m 'COMMIT_LOG'`` .
+
 注意检查几点:
 #. monNickelodeonJr.swf的文件名需要加上版本号.
-#. index.htm，不是html.
+#. index.htm，不是index.html.
 #. index.htm里面有两处使用monNickelodeonJr.swf的地方，需要跟着版本号一起修改文件名.
  
