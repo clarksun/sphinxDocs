@@ -30,6 +30,7 @@ Flash交接文档
 
 打包Plugin
 -----------
+#. 共享下载虚拟机 ``\\192.168.20.200\share\clarksun\xp`` 
 #. Vmware打开xp虚拟机,用户名 **administrator** ,密码 **123456** .
 #. 打开目录 ``c:\alex\flash`` .
 #. 右键svn update需要更新的项目.
