@@ -6,18 +6,7 @@
 Welcome to SunWei's documentation!
 =================================
 
-Contents:
+Content:
 
 .. toctree::
    :maxdepth: 2
-   
-   getting_started
-   versions
-   builds
-   features
-   support
-   faq
-   yaml-config
-   guides/index
-   api
-   embed
